@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap');
+:root {--maincolor:#64dfd7; --lightmain:#e0f4f4; --mainfont: Alegreya,serif;}
+
+/*=======================*/
+html, body{
+    height: 100%;
+    margin:0px;
+    padding: 0px;
+}
+#particles-js{
+    width: 100%;
+    height: 100%;
+    background: #393f4d;
+}
+
+body {width: 100%; vertical-align: middle;
+    background-color: transparent;font-family:  var(--mainfont); font-size:12pt;
+    opacity: 0.88; margin:0px 0px 0px 0px; padding:0px 0px 0px 0px;
+}
+
+/**/
+div#page-wrapper{height: auto; margin:auto; width:100%; max-width:1100px; background-color:white;
+    display:flex; justify-content:center;}
+
+/* navbar */
+div#navbar {background-color: var(--lightmain);
+    transition: all 0.5s; -webkit-transition: all 0.5s; 
+    -moz-transition: all 0.5s; -o-transition: all 0.5s;
+    box-shadow: 0px 0px 10px 0px #dddddd; padding: 15px; 
+    width:100%; max-width:1100px;
+    position: fixed; top: 0px; z-index: 5; margin-top:10px; border-radius:7px;}
+#navbar a {font-size:20px; font-family: var(--mainfont); 
+    color:var(--maincolor); margin-left:10px; margin-right:10px;}
+#navbar-left {font-size:15px; font-family: var(--mainfont); color: var(--maincolor);}
+#navbar-right {margin-left:60%; font-size:15px; font-family: var(--mainfont);
+    color: var(--maincolor); text-align:right;}
+
+/* default */
+div#content {padding:40px; background-color:transparent; display:block; width:100%;}
+
+/* color headings*/
+h1,h2,h3 {color:var(--maincolor);}
+/*link spam*/
+a:link {color: var(--maincolor);text-decoration:none;}
+a:hover {color: var(--maincolor);text-shadow: 0 0 1px var(--maincolor);}
+a:active {color: var(--maincolor); background-color: var(--lightmain); text-decoration: none;}
+a:visited {color: var(--maincolor);}
+
+/* me attempting to implement mdframed*/
+block {padding:5px 10px 5px 10px;
+    border: 3px solid var(--maincolor); border-width: 0px 0px 0px 4px;
+    display:block; background-color: var(--lightmain);width:99%;
+    margin:5px 0px 5px 0px;}
+/*why not*/
+div#quote{display:block; margin-left:20%; margin-right:20%;margin-top:10px;
+    margin-bottom:10px; position:relative;}
+/*hide hide hide*/
+.hidden {display: none!important;}
+
+/*inline text formatting shortcuts*/
+ch {display: inline; font-family: Noto, serif; font-size:12pt;} /*chinese*/
+i {font-style: italic;}
+b {font-weight:500;}
+cap { display:block;text-align: center; font-size:12pt;} /*caption*/
+
+/* copied from dchenmathcounts*/
+div.fancy-links {list-style-type: none;padding: 0;display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));}
+div.fancy-links block {width:90%; padding:10px;border: 2.5px solid var(--maincolor); background-color: var(--lightmain);
+    border-width: 2px; border-radius:5px;margin:5px;}
+div.fancy-links a {display:block; font-size:14pt;}
+a#footnote-ref {}
+a#footnote-back {margin-left: 0.4rem;}
+li {margin-top:5px;margin-bottom:5px;}
