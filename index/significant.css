@@ -17,7 +17,7 @@ body {width: 100%; vertical-align: middle;
     top: 0;
     left: 0;
     z-index: 0;
-    color: darkblue;
+    color: rgb(255, 255, 255);
   }
 div#page-wrapper{height: auto; margin:auto; width:100%; max-width:1100px; background-color:white;
     display:flex; justify-content:center;}
@@ -66,6 +66,5 @@ div.fancy-links {list-style-type: none;padding: 0;display: grid;
 div.fancy-links block {width:90%; padding:10px;border: 2.5px solid var(--maincolor); background-color: var(--lightmain);
     border-width: 2px; border-radius:5px;margin:5px;}
 div.fancy-links a {display:block; font-size:14pt;}
-a#footnote-ref {}
 a#footnote-back {margin-left: 0.4rem;}
 li {margin-top:5px;margin-bottom:5px;}
