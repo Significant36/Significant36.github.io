@@ -5,12 +5,18 @@
 /*=======================*/
 
 
-html {background-image: url("https://significant36.github.io/static/bluebackground.png");
+/*html {background-image: url("https://significant36.github.io/static/bluebackground.png");
+    background-size: cover; background-attachment:fixed; height:100%;}
+body {width: 100%; vertical-align: middle;
+   background-color: transparent;font-family:  var(--mainfont); font-size:12pt;
+   opacity: 0.88; margin:0px 0px 0px 0px; padding:50px 0px 0px 0px;} */
+/*Inspired by and mostly based off of Unity858 (GH)/Crazyeyemoody (AoPS)*/
+
+html {
     background-size: cover; background-attachment:fixed; height:100%;}
 body {width: 100%; vertical-align: middle;
    background-color: transparent;font-family:  var(--mainfont); font-size:12pt;
    opacity: 0.88; margin:0px 0px 0px 0px; padding:50px 0px 0px 0px;}
-/*Inspired by and mostly based off of Unity858 (GH)/Crazyeyemoody (AoPS)*/
 
 .background {
     position: absolute;
