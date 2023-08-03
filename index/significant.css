@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap');
-:root {--maincolor:#64dfd7; --lightmain:#e0f4f4; --mainfont: Lora,serif;}
+:root {--maincolor:#4073c0; --lightmain:#7eb4ff; --mainfont: Lora,serif;}
 
 /*=======================*/
 
@@ -16,6 +16,7 @@ body {width: 100%; vertical-align: middle;
     top: 0;
     left: 0;
     z-index: 0;
+    color: darkblue;
   }
 div#page-wrapper{height: auto; margin:auto; width:100%; max-width:1100px; background-color:white;
     display:flex; justify-content:center;}
@@ -36,23 +37,20 @@ div#navbar {background-color: var(--lightmain);
 /* default */
 div#content {padding:40px; background-color:transparent; display:block; width:100%;}
 
-/* color headings*/
+
 h1,h2,h3 {color:var(--maincolor);}
-/*link spam*/
+
 a:link {color: var(--maincolor);text-decoration:none;}
 a:hover {color: var(--maincolor);text-shadow: 0 0 1px var(--maincolor);}
 a:active {color: var(--maincolor); background-color: var(--lightmain); text-decoration: none;}
 a:visited {color: var(--maincolor);}
 
-/* me attempting to implement mdframed*/
 block {padding:5px 10px 5px 10px;
     border: 3px solid var(--maincolor); border-width: 0px 0px 0px 4px;
     display:block; background-color: var(--lightmain);width:99%;
     margin:5px 0px 5px 0px;}
-/*why not*/
 div#quote{display:block; margin-left:20%; margin-right:20%;margin-top:10px;
     margin-bottom:10px; position:relative;}
-/*hide hide hide*/
 .hidden {display: none!important;}
 
 /*inline text formatting shortcuts*/
