@@ -50,7 +50,7 @@
       "distance": 150,
       "color": "#a70000",
       "opacity": 0.1683582663908799,
-      "width": 1.25
+      "width": 0.75
     },
     "move": {
       "enable": true,
@@ -62,8 +62,8 @@
       "bounce": false,
       "attract": {
         "enable": false,
-        "rotateX": 641.3648243462092,
-        "rotateY": 561.194221302933
+        "rotateX": 500,
+        "rotateY": 500
       }
     }
   },
