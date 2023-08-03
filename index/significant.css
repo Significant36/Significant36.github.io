@@ -19,13 +19,14 @@ body {width: 100%; vertical-align: middle;
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: 50% 50%; }
+
 .background {
     position: absolute;
     display: block;
     top: 0;
     left: 0;
     z-index: 0;
-    color: rgb(255, 255, 255);
+    color: #fcf5e5;
   }
 div#page-wrapper{height: auto; margin:auto; width:100%; max-width:1100px; background-color:white;
     display:flex; justify-content:center;}
