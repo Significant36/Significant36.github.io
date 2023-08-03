@@ -1,4 +1,5 @@
 # **Significant36.github.io**
-
--Currently acting as an active construction zone
+-Currently an active construction zone
+--------------------------------
+Inspired and based off of both **unity858.github.io** and **https://dennisc.net/**.
 
