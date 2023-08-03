@@ -37,7 +37,7 @@ div#navbar {background-color: var(--lightmain);
     color: var(--maincolor); text-align:right;}
 
 /* default */
-div#content {padding:40px; background-color:white; display:block; width:100%; z-index: 1; }
+div#content {padding:40px; background-color:rgb(0, 0, 0); display:block; width:100%; z-index: 1; }
 
 /* color headings*/
 h1,h2,h3 {color:var(--maincolor);}
