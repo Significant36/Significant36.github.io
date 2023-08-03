@@ -11,6 +11,14 @@ body {width: 100%; vertical-align: middle;
 
 /*Inspired by and mostly based off of Unity858 (GH)/Crazyeyemoody (AoPS)*/
 
+#particles-js{ 
+    position:absolute; 
+    width: 100%; height: 100%; 
+    background-color: #fcf5e5; 
+    background-image: url(""); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: 50% 50%; }
 .background {
     position: absolute;
     display: block;
