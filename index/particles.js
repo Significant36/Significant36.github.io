@@ -557,3 +557,9 @@ var Particles = (function(window, document) {
     window.Particles = Particles;
   }
 })();
+
+window.onload = function() {
+  Particles.init({
+    selector: '.background'
+  });
+};
